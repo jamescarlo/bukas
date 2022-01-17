@@ -21,7 +21,7 @@ export default function Index() {
         setArticles(response.data)
       })
       .catch((error) => {
-        console.error('##ERROR WHEN FETCHING MENUS', error)
+        console.error('###ERROR WHEN FETCHING MENUS', error)
       })
 
     return () => {
