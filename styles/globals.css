@@ -1,9 +1,13 @@
+@import 'colors.css';
+@import 'fonts.css';
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -13,4 +17,54 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700 !important;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700 !important;
+  line-height: 56px;
+}
+
+.center {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.global__primary--btn {
+  height: 40px !important;
+  width: 150px;
+  background-color: var(--primary);
+}
+.global__primary--btn > span {
+  color: var(--white) !important;
+}
+
+.global__secondary--btn {
+  height: 40px !important;
+  width: 150px;
+  border: 1px solid var(--primary) !important;
+}
+.global__secondary--btn > span {
+  color: var(--primary) !important;
+}
+
+.global__line {
+  background-color: var(--black);
+  width: 56px;
+  height: 2px;
 }

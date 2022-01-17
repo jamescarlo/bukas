@@ -1,0 +1,6 @@
+@font-face {
+    font-family: Mulish;
+    font-weight: bold;
+    src: url('/fonts/Mulish-regular-400.ttf') format('truetype');
+    font-display: swap;
+  }
