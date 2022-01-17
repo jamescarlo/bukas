@@ -2,7 +2,7 @@ import { StyledFooterWrapper, StyledRow } from './styles'
 import ContentWrapper from 'components/ContentWrapper'
 import { Image, Space, Col, Row } from 'antd'
 import { map_site } from 'utils/constants'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 export default function Index() {
   return (

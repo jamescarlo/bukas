@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Image, Button } from 'antd'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const StyledArticlesCardWrapper = styled.div`
   display: flex;
