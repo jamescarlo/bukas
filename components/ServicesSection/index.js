@@ -56,7 +56,7 @@ export default function Index() {
                       title={service.attributes.service_name}
                       description={service.attributes.description}
                       serviceImage={
-                        process.env.NEXT_PUBLIC_UPLOAD_URL +
+                        'https://bukas-strapi.herokuapp.com' +
                         service.attributes.image.data.attributes.url
                       }
                     />

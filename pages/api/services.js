@@ -3,7 +3,7 @@ import axios from 'axios'
 export default async function GetServices (req, res) {
     return new Promise((resolve, reject) => {
         axios
-        .get(`${process.env.NEXT_PUBLIC_API_URL}/services?populate=image`)
+        .get(`https://bukas-strapi.herokuapp.com/api/services?populate=image`)
         .then((response) => {
           if (response) {
             res.status(response.data ? 200 : 404).json(response.data.data)

@@ -5,7 +5,7 @@ export default async function GetMenu (req, res) {
   // res.status(200).json({ name: 'John Doe' })
     return new Promise((resolve, reject) => {
         axios
-        .get(`${process.env.NEXT_PUBLIC_API_URL}/menus`)
+        .get(`https://bukas-strapi.herokuapp.com/api/menus`)
         .then((response) => {
           if (response) {
             res.status(response.data ? 200 : 404).json(response.data.data)
